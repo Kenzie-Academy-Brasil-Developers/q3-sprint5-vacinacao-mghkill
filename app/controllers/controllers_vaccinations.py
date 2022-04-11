@@ -36,6 +36,9 @@ def create_vaccine():
     except IntegrityError:
         return {"Error": "User already exists"}, HTTPStatus.CONFLICT
         
+    except TypeError:
+        return {"Error": "Incorrect keys"}, HTTPStatus.CONFLICT
+        
         
         
 def get_all_vaccine():
