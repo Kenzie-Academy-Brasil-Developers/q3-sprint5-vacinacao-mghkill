@@ -13,7 +13,7 @@ principais instituições mundiais de saúde.
 
 
 
-# POST /vaccinations - Esta rota fará o cadastro do cartão de vacina:
+## POST /vaccinations - Esta rota fará o cadastro do cartão de vacina:
 
 
   ### Corpo da requisição:
@@ -42,7 +42,7 @@ principais instituições mundiais de saúde.
 ----------------------------------------------------------------
 
 
-# GET /vaccinations - Esta rota retornará todos os cartões de vacina:
+## GET /vaccinations - Esta rota retornará todos os cartões de vacina:
 
 ### Resposta da requisição:
 
